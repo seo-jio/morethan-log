@@ -58,7 +58,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: "seo-jio/morethan-log",
       "issue-term": "og:title",
