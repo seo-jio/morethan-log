@@ -1,25 +1,25 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    name: "SeoJio",
+    image: "https://notion-avatar.vercel.app/api/img/eyJmYWNlIjoxMSwibm9zZSI6MTIsIm1vdXRoIjoxNCwiZXllcyI6MTAsImV5ZWJyb3dzIjoxMywiZ2xhc3NlcyI6MTMsImhhaXIiOjM0LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjAsImNvbG9yIjoicmdiYSgyNTUsIDAsIDAsIDApIiwic2hhcGUiOiJub25lIn0=", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "backend developer",
+    bio: "I want to be a backend engineer",
+    email: "seojo8625@gmail.com",
+    github: "https://github.com/seo-jio",
+    instagram: "https://www.instagram.com/seojo8625/",
   },
   projects: [
     {
       name: `morethan-log`,
       href: "https://github.com/morethanmin/morethan-log",
+      theme: "auto",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "Jio's Tech Blog",
+    description: "welcome to jio's tech blog!",
   },
 
   // CONFIG configration (required)
@@ -47,7 +47,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
       "issue-term": "og:title",
