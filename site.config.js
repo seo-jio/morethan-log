@@ -49,12 +49,12 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
+      repo: "seo-jio/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
   },
-  cusdis: {
+  cusdis: {  
     enable: false,
     config: {
       host: "https://cusdis.com",
