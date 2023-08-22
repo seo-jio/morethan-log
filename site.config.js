@@ -12,8 +12,18 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `PokerFace`,
+      href: "https://github.com/seo-jio/Pokerface",
+      theme: "auto",
+    },
+    {
+      name: `GaVoyage`,
+      href: "https://github.com/seo-jio/Gavoyage",
+      theme: "auto",
+    },
+    {
+      name: `4can1000won`,
+      href: "https://github.com/seo-jio/4can10000won",
       theme: "auto",
     },
   ],
