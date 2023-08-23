@@ -4,7 +4,7 @@ const CONFIG = {
     name: "SeoJio",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
-    bio: "I want to be a backend engineer",
+    bio: "함께 성장하는 개발자 서지오입니다",
     email: "seojo8625@gmail.com",
     linkedin: "",
     github: "seo-jio",
@@ -14,31 +14,27 @@ const CONFIG = {
     {
       name: `PokerFace`,
       href: "https://github.com/seo-jio/Pokerface",
-      theme: "auto",
     },
-    
     {
       name: `GaVoyage`,
       href: "https://github.com/seo-jio/Gavoyage",
-      theme: "auto",
     },
-    
     {
       name: `4can1000won`,
       href: "https://github.com/seo-jio/4can10000won",
-      theme: "auto",
     },
   ],
   // blog setting (required)
   blog: {
     title: "Jio's Tech Blog",
     description: "welcome to jio's tech blog!",
+    theme: "auto"
   },
 
   // CONFIG configration (required)
   link: "https://seojio-tech.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  since: 2023, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
     keywords: ["Blog", "Website", "Notion"],
