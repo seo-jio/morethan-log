@@ -12,16 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `PokerFace`,
-      href: "https://github.com/seo-jio/Pokerface",
-    },
-    {
-      name: `GaVoyage`,
-      href: "https://github.com/seo-jio/Gavoyage",
-    },
-    {
-      name: `4can1000won`,
-      href: "https://github.com/seo-jio/4can10000won",
+      name: `Portfolio`,
+      href: "https://north-sandalwood-40f.notion.site/5529a439711045b0948da70d6e44a434?pvs=4",
     },
   ],
   // blog setting (required)
